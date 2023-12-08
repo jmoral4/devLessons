@@ -1,4 +1,6 @@
-﻿namespace GraphLesson
+using System.ComponentModel.Design;
+
+namespace GraphLesson
 {
     internal class Program
     {
@@ -21,13 +23,19 @@
 
               */
 
+            //setup graph using Nodes
+
+
+            // our algorithms class
+            Graph graph = new Graph();
+
             Console.WriteLine("DFS Output:");
-
-
+            // execute DFS and display output
+            // call with your first node:   graph.DFS(node1);
 
             Console.WriteLine("BFS Output:");
-
-
+            // execute BFS and display output
+            // call with your first node:   graph.BFS(node1);
         }
     }
 
