@@ -1,4 +1,4 @@
-namespace rag_quickdemo;
+namespace ragdemo;
 
 public class AppSettings
 {
